@@ -20,11 +20,11 @@ def conditions_for_reading(filename):
     return any(filename.lower().endswith(ext) for ext in valid_extensions)
 
 
-files_name = [os.path.join(path_dir, file) for file in os.listdir(path_dir) if conditions_for_reading(file)]
+files_name = [os.path.join(file) for file in os.listdir(path_dir) if conditions_for_reading(file)]
 
 # Test
 for file_name in files_name:
-    with open(file_name) as f:
+    with open(file_name, encoding='latin-1') as f:
         print(f.read())
 
 
@@ -715,9 +715,10 @@ for f in files_name:
       print('error reading csv',f)
 
   elif '.txt' in f:
+    pass
     try:
       query = open(f'{path_dir}{f}').read()
-      df = pd.read_sql_query(query, psy_conn)
+      #df = pd.read_sql_query(query, psy_conn)
 
       cols_total = 0
       vol_total = 0

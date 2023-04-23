@@ -1,0 +1,8 @@
+financial statements (TSLA).xlsx	income annually	12	(32, 12)	384
+financial statements (TSLA).xlsx	income quarterly	12	(32, 12)	384
+financial statements (TSLA).xlsx	balance sheet annually	12	(35, 12)	420
+financial statements (TSLA).xlsx	balance sheet quarterly	12	(35, 12)	420
+financial statements (TSLA).xlsx	cash flow annually	12	(20, 12)	240
+financial statements (TSLA).xlsx	cash flow quarterly	12	(20, 12)	240
+financial statements (TSLA).xlsx	ratio annually	13	(24, 13)	312
+financial statements (TSLA).xlsx	ratio quarterly	13	(24, 13)	312

@@ -23,7 +23,7 @@ driver.execute_script("arguments[0].style.backgroundColor = 'white';", canvas3)
 
 # Get the base64-encoded JPG image of the canvas
 canvas_base64_1 = driver.execute_script("return arguments[0].toDataURL('image/png').substring(21);", canvas1)
-canvas_base64_2 = driver.execute_script("return arguments[0].toDataURL('image/png').substring(21);", canvas2)
+canvas_base64_2 = driver.execute_script("return arguments[0].toDataURL('image/jpg').substring(23);", canvas2)
 canvas_base64_3 = driver.execute_script("return arguments[0].toDataURL('image/png').substring(21);", canvas3)
 
 

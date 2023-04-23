@@ -58,6 +58,8 @@ def create_markdown_cell(src_list):
 
   cell = {
       "cell_type": "markdown",
+      "outputs": [],
+      "execution_count":'null',
       "source": src_list,
       "metadata": {
         "id": f"{uuid.uuid4()}"
@@ -128,6 +130,7 @@ def add_import_cells():
       },
       {
           "cell_type": "code",
+          "outputs": [],
           "execution_count": 'null',
           "metadata": {
             "id": f"{uuid.uuid4()}"

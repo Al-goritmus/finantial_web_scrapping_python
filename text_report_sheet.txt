@@ -6,3 +6,4 @@ financial statements (TSLA).xlsx	cash flow annually	12	(20, 12)	240
 financial statements (TSLA).xlsx	cash flow quarterly	12	(20, 12)	240
 financial statements (TSLA).xlsx	ratio annually	13	(24, 13)	312
 financial statements (TSLA).xlsx	ratio quarterly	13	(24, 13)	312
+trending_top_stocks.xlsx	trending_today	7	(20, 7)	140

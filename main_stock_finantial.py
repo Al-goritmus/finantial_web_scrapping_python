@@ -11,7 +11,7 @@ headers= {
     'Cache-Control': 'max-age=0'
 }
 
-symbol= 'TSLA'
+symbol= 'EC'
 
 urls = {}
 urls['income annually'] = f"https://stockanalysis.com/stocks/{symbol}/financials/"
@@ -31,5 +31,6 @@ for key in urls.keys():
     print(soup)
     df = pd.read_html(str(soup), attrs={'data-test': 'financials'})[0]
     df.to_excel(xlwriter, sheet_name=key, index=False)
+
 
 xlwriter.save()

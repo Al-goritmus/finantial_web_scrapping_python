@@ -11,7 +11,7 @@ headers= {
     'Cache-Control': 'max-age=0'
 }
 
-symbol= 'EC'
+symbol= 'TSLA'
 
 urls = {}
 urls['income annually'] = f"https://stockanalysis.com/stocks/{symbol}/financials/"

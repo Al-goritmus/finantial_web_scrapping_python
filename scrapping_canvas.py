@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 # Set up the Selenium webdriver
 driver = webdriver.Chrome()
 
-symbol = 'aapl'  #symbol, company or stock to analyze
+symbol = 'TSLA'  #symbol, company or stock to analyze
 
 #This is the web with images for scraping canvas
 driver.get(f"https://stockanalysis.com/stocks/{symbol}/forecast/")

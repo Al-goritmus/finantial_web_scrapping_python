@@ -110,6 +110,8 @@ def add_import_cells():
   return [
       {
           "cell_type": "markdown",
+          "outputs": [],
+          "execution_count": 'null',
           "source": [
               "# Import libraries"
           ],
@@ -157,6 +159,8 @@ def add_db_config(cells):
   return cells + [
       {
           "cell_type": "markdown",
+          "execution_count": 'null',
+          "outputs": [],
           "source": [
               "# Set DB Conn"
           ],
@@ -187,6 +191,8 @@ def add_read_from_db(cells, query):
   return cells + [
       {
           "cell_type": "markdown",
+          "execution_count": 'null',
+          "outputs": [],
           "source": [
               "# Read data from DB"
           ],
@@ -247,6 +253,8 @@ def add_readfile_cells(cells, path_dirname,filename,sheet):
   return cells + [
       {
           "cell_type": "markdown",
+          "execution_count": 'null',
+          "outputs": [],
           "source": [
               "# Read file"
           ],
@@ -307,6 +315,8 @@ def add_normalize_cols_cells(cells):
   return cells + [
       {
           "cell_type": "markdown",
+          "execution_count": 'null',
+          "outputs": [],
           "source": [
               "# Normalize_cols"
           ],
@@ -366,6 +376,8 @@ def add_general_stats_cells(cells):
   return cells + [
       {
           "cell_type": "markdown",
+          "execution_count": 'null',
+          "outputs": [],
           "source": [
               "# General stats cells"
           ],
@@ -449,6 +461,8 @@ def add_sweetviz_cells(cells_p, path_dir,f,sheet):
   return cells_p + [
       {
           "cell_type": "markdown",
+          "execution_count": 'null',
+          "outputs": [],
           "source": [
               "# Sweetviz report"
           ],

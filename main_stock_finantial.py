@@ -31,6 +31,5 @@ for key in urls.keys():
     print(soup)
     df = pd.read_html(str(soup), attrs={'data-test': 'financials'})[0]
     df.to_excel(xlwriter, sheet_name=key, index=False)
-    print(df,'dataframes')
 
 xlwriter.save()

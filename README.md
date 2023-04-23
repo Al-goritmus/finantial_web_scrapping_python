@@ -1,2 +1,15 @@
-# finantial_web_scrapping_python
-this is a repository for web scrapping code using python
+Web Scraping Financial Data from stockanalysis.com
+This project aims to extract financial data from the stockanalysis.com website using web scraping techniques. The extracted data can be used for financial analysis and modeling.
+
+Installation
+To install the required libraries, run:
+
+pip install -r requirements.txt
+
+Usage
+
+To run the web scraper, run:
+
+python main.py
+
+The scraped data will be saved to a .xlsx file in the data/ directory.
